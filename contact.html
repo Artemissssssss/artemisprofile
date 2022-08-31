@@ -39,21 +39,39 @@
 
 <dev id="menu" class="fas fa-bars"></dev>   
 
-<!-- section home starts here -->
+<!-- contact starts here -->
 
-<section class="home" id="home">
+<section class="contact" id="contact">
 
-    <h3>HI THERE!</h3>
-    <h1>I'M <span>Matthew Labrador</span></h1>
-    <p> Hello, my name is Matthew, and i attend Trace College for my studies. We may have never
-        because i practice website design after class. It's a pleasure to get to know you.
-        If you ever need help with your website, you now know who to call. I'm always up
-        for a conversation. I hope we can all keep working together and helping people.</p>
-       <a href="about.html"><button class="btn">about me<i class="fas fa-user"></i></button></a>
+<h1 class="heading"> <span>contact</span> me </h1>
+
+<div class="row">
+
+    <div class="content">
+
+        <h3 class="title">contact info</h3>
+
+        <div class="info">
+            <h3> <i class="fas fa-envelope"></i> Matthewlabrador94@Gmail.Com </h3>
+            <h3> <i class="fas fa-phone"></i> 09192544631 </h3>
+            <h3> <i class="fas fa-phone"></i> 09104524987 </h3>
+            <h3> <i class="fas fa-globe-asia"></i> Laguna, Philippines </h3> 
+        </div>
+        
+    </div>
+
+    <form action="form-handler.php" method="post">
+        <input type="text" name="name" placeholder="Enter your name" class="box">
+        <input type="email" name="email" placeholder="Enter your email" class="box">
+        <input type="text" name="subject" placeholder="Enter your subject" class="box">
+        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="Enter your message"></textarea>
+        <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i></button>
+    </form>
+
+</div>
 
 </section>
-
-<!-- section home ends here -->
+<!-- contact start here -->
 
 <!-- jquery cdn link -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

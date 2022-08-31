@@ -28,17 +28,18 @@ html::-webkit-scrollbar{
 }
 
 html::-webkit-scrollbar-track{
-    background:#222;
+    background:#3600b1;
 }
 
 html::-webkit-scrollbar-thumb{
-    background:var(--yellow);
+    background: #8948B4;
 }
 
 body{
-    background:#fbca03;
+    background: url(images/city.gif);
     overflow-x: hidden;
     padding-left: 35rem;
+    background-size:cover;
 }
 
 section{
@@ -48,7 +49,7 @@ section{
 
 .btn{
     padding: .7rem 3rem;
-    background: #aa0505;
+    background: #900C3F;
     color: #fff;
     cursor: pointer;
     margin-top: 1rem;
@@ -62,7 +63,7 @@ section{
 }
 
 .btn:hover{
-    background: #67C7EB;
+    background: #361F69;
 }
 
 .heading{
@@ -75,7 +76,7 @@ section{
 }
 
 .heading span{
-    color: #aa0505;
+    color: #1A8CC4;
 }
 
 header{
@@ -84,7 +85,8 @@ header{
     z-index: 1000;
     height: 100%;
     width: 35rem;
-    background: #aa0505;
+    background: linear-gradient(#030F33,#2B0933);
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -98,7 +100,7 @@ header .user img{
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border:.7rem solid #67C7EB;
+    border:.7rem solid #900C3F;
 }
 
 header .user name{
@@ -129,14 +131,14 @@ header .navbar ul li a{
     display: block;
     padding:1rem;
     margin: 1.5rem 0;
-    background: #fbca03;
+    background: #900C3F;
     color: #fff;
     font-size:2rem;
     border-radius: 5rem;
 }
 
 header .navbar ul li a:hover{
-    background: #67C7EB;
+    background: #361F69;
 }
 
 #menu{
@@ -169,13 +171,17 @@ header .navbar ul li a:hover{
 }
 
 .home h1 span{
-    color:#aa0505;
+    color: #1A8CC4;
 }
 
 .home p{
     font-size:2rem;
     color: #eee;
     padding: 1rem 0;
+}
+
+.about h1 span{
+    color: #1A8CC4;
 }
 
 .about .row{
@@ -194,7 +200,7 @@ header .navbar ul li a:hover{
 
 .about .row .info h3{
     font-size: 2rem;
-    color: #aa0505;
+    color: #fbca03;
     padding: 1rem 0;
     font-weight: normal;
 }
@@ -213,7 +219,7 @@ header .navbar ul li a:hover{
 
 .about .row .counter .box{
     width: 20rem;
-    background: #aa0505;
+    background: #900C3F;
     text-align: center;
     padding: 2rem;
     margin: 2rem;
@@ -248,15 +254,19 @@ header .navbar ul li a:hover{
 
 .education .box-container .box span{
     font-size: 1.3rem;
-    background: #67C7EB;
+    background: #900C3F;
     color: #fff;
     border-radius: 5rem;
     padding: .5rem 2.5rem;
 }
 
+.education h1 span{
+    color: #1A8CC4;
+}
+
 .education .box-container .box h3{
     font-size: 2rem;
-    color: #fff;
+    color: #fbca03;
     padding-top: 1.5rem;
 }
 
@@ -276,7 +286,10 @@ header .navbar ul li a:hover{
     text-align: center;
     font-size: 2rem;
     color: #fff;
-    background: #aa0505;
+    background: #900C3F;
+}
+.portfolio h1 span{
+    color: #1A8CC4;
 }
 
 .portfolio .box-container{
@@ -304,6 +317,10 @@ header .navbar ul li a:hover{
 
  .portfolio .box-container .box:hover img{
     transform:scale(1.2);
+ }
+
+ .contact h1 span{
+    color: #B32134;
  }
 
  .contact .row{
@@ -363,7 +380,7 @@ header .navbar ul li a:hover{
 
  .contact .row .content .info h3 i{
     padding-right: 1rem;
-    color: #aa0505;
+    color: #fbca03;
  }
 
  .top{
